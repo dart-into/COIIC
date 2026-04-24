@@ -8,7 +8,7 @@ Code for COIIC
 If you want to use the Chinese medicinal herb object detection model, you can utilize the YOLO v5s code along with the model parameters provided in the best.pt file.
 
  
-If you want to use the key region cropping method, you need to first obtain the label information provided by the object detection model, and then run yolo_detection.py.
+If you want to use the key region cropping method, you need to first obtain the label information provided by the object detection model(best.pt), and then run yolo_detection.py.
 
 ```
 python yolo_detection.py
